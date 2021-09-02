@@ -1,0 +1,137 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  color: grey;
+}
+
+.main {
+  text-align: center;
+  position: relative;
+  background-color: white;
+  width: 500px;
+  height: 700px;
+  margin: 200px auto;
+  border-radius: 8px;
+}
+img {
+  width: 100%;
+  display: inline-block;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin: 0 auto 0 auto;
+}
+.order {
+  margin: 20px auto;
+  padding: 2px;
+  width: 60%;
+}
+.annual-plan {
+  margin: 30px auto 0 auto;
+  background-color: hsl(240, 6%, 93%);
+  width: 80%;
+  border-radius: 5px;
+}
+h1 {
+  color: black;
+  font-weight: 900;
+}
+h2 {
+}
+
+.music {
+  width: 7%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+h2 {
+  color: black;
+  display: inline-block;
+  width: 20%;
+  font-size: 0.7rem;
+  margin-right: 250px;
+  margin-bottom: 0%;
+}
+.amount {
+  display: inline-block;
+  margin-right: 200px;
+  margin-top: 0px;
+  font-size: 0.6rem;
+}
+
+.change {
+  margin-left: 0;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.change:hover {
+  color: teal;
+}
+.p2payment {
+  background: #3d94f6;
+  background-image: -webkit-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -moz-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -ms-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -o-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -webkit-gradient(to bottom, #3d94f6, #1e62d0);
+  border-radius: 8px;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px 110px;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.p2payment:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  text-decoration: none;
+}
+.cancel {
+  display: inline-block;
+  width: 25%;
+  margin-top: 20px;
+  text-decoration: none;
+  color: grey;
+}
+.cancel:hover {
+  color: red;
+}
+.attribution {
+  margin: auto;
+  padding: auto;
+  width: 40%;
+}
+@media screen and (max-width: 1440px) {
+  body {
+    background-image: url("../images/pattern-background-mobile.svg");
+    margin: auto auto;
+  }
+
+  .summary-container {
+    transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8); /* IE 9 */
+    -webkit-transform: scale(0.8, 0.8); /* Safari and Chrome */
+    -o-transform: scale(0.8, 0.8); /* Opera */
+    -moz-transform: scale(0.8, 0.8); /* Firefox */
+  }
+
+  .attribution {
+    margin-top: auto;
